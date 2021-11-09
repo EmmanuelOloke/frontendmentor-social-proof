@@ -114,11 +114,19 @@
         line-height: 1.7;
     }
     .attribution {
-        font-size: 11px;
+        color: hsl(303, 10%, 53%);
+        font-family: 'Spartan', sans-serif;
+        font-size: 14px;
         text-align: center;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        margin-bottom: 10px;
     }
     .attribution a {
-        color: hsl(228, 45%, 44%);
+        color: hsl(300, 43%, 22%);
+        text-decoration: none;
     }
 }
 
@@ -246,5 +254,20 @@
     }
     .customer-third {
         transform: none;
+    }
+    .attribution {
+        color: hsl(303, 10%, 53%);
+        font-family: 'Spartan', sans-serif;
+        font-size: 14px;
+        text-align: center;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .attribution a {
+        color: hsl(300, 43%, 22%);
+        text-decoration: none;
     }
 }
