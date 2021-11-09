@@ -34,6 +34,7 @@ This is the fifth challenge I'm attempting. My completion time is getting shorte
 - Explore CSS background positioning attribute to use two .svg images on the background.
 - Using [ul] and [li] with CSS Flexbox to achieve horizontal text display.
 - Reduce excessive use of [px] and [%].
+- Footer positioning with [body {position: relative;} and footer {position: absolute;}]
 
 ## Continued Development
 

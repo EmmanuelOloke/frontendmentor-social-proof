@@ -141,6 +141,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        position: relative;
     }
     .main {
         min-width: 100vw;
@@ -256,15 +257,12 @@
         transform: none;
     }
     .attribution {
-        color: hsl(303, 10%, 53%);
         font-family: 'Spartan', sans-serif;
-        font-size: 14px;
         text-align: center;
-        position: fixed;
+        position: absolute;
         left: 0;
         bottom: 0;
         width: 100%;
-        margin-bottom: 10px;
     }
     .attribution a {
         color: hsl(300, 43%, 22%);
