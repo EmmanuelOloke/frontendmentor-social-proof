@@ -122,14 +122,6 @@
     }
 }
 
-.colors {
-    color: hsl(300, 43%, 22%);
-    color: hsl(333, 80%, 67%);
-    color: hsl(303, 10%, 53%);
-    color: hsl(300, 24%, 96%);
-    color: hsl(0, 0%, 100%);
-}
-
 @media only screen and (max-width: 768px) {
     body {
         font-size: 15px;
