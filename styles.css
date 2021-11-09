@@ -1,144 +1,125 @@
-body {
-    font-size: 15px;
-    min-height: 100vh;
-    margin: 0;
-    background: hsl(0, 0%, 100%);
-    background-image: url('./images/bg-pattern-top-desktop.svg'), url('./images/bg-pattern-bottom-desktop.svg');
-    background-position: right 60vw bottom 60vh, left 20vw top 20vh;
-    background-repeat: no-repeat no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.main {
-    width: 80vw;
-    margin: 0 auto;
-}
-
-.heading {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 10rem;
-}
-
-.heading-text {
-    max-width: 27rem;
-    line-height: 1;
-}
-
-.heading-rate {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin: 1rem;
-}
-
-.rate {
-    background: hsl(300, 24%, 96%);
-    color: hsl(300, 43%, 22%);
-    border-radius: 5px;
-    padding: 1.1rem 2rem;
-    width: 25rem;
-    font-family: 'Spartan', sans-serif;
-    font-weight: 700;
-}
-
-.rate-txt {
-    margin-left: 2rem;
-}
-
-.rate-first {
-    transform: translateX(-20%);
-}
-
-.rate-second {
-    transform: translateX(-10%);
-}
-
-.customers {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 2rem;
-    margin: 4rem 0 4rem 0;
-}
-
-.customer {
-    border-radius: 5px;
-    background: hsl(300, 43%, 22%);
-    max-width: 20rem;
-    padding: 2rem;
-}
-
-.customer-info {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 1rem;
-}
-
-.customer-img {
-    border-radius: 50%;
-    width: 3em;
-    height: 3em;
-}
-
-.customer-deets {
-    list-style: none;
-    margin-top: 0.5em;
-}
-
-.customer-name {
-    font-family: 'Spartan', sans-serif;
-    font-weight: 700;
-    color: hsl(0, 0%, 100%);
-}
-
-.customer-status {
-    font-family: 'Spartan', sans-serif;
-    color: hsl(333, 80%, 67%);
-}
-
-.customer-words {
-    font-family: 'Spartan', sans-serif;
-    font-size: 0.89rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: hsl(300, 24%, 96%);
-}
-
-.customer-second {
-    transform: translateY(10%);
-}
-
-.customer-third {
-    transform: translateY(20%);
-}
-
-h1 {
-    font-size: 3rem;
-    font-family: 'Spartan', sans-serif;
-    font-weight: 700;
-    color: hsl(300, 43%, 22%);
-    margin: 0;
-}
-
-p {
-    font-size: 0.9rem;
-    font-family: 'Spartan', sans-serif;
-    font-weight: 400;
-    color: hsl(303, 10%, 53%);
-    line-height: 1.7;
-}
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: 15px;
+        min-height: 100vh;
+        background: hsl(0, 0%, 100%);
+        background-image: url('./images/bg-pattern-top-desktop.svg'), url('./images/bg-pattern-bottom-desktop.svg');
+        background-position: right 60vw bottom 60vh, left 20vw top 20vh;
+        background-repeat: no-repeat no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main {
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .heading {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10rem;
+        text-align: center;
+    }
+    .heading-text {
+        max-width: 27rem;
+        line-height: 1;
+        text-align: left;
+    }
+    .heading-rate {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin: 1rem;
+    }
+    .rate {
+        background: hsl(300, 24%, 96%);
+        color: hsl(300, 43%, 22%);
+        border-radius: 5px;
+        padding: 1.1rem 2rem;
+        min-width: 25rem;
+        font-family: 'Spartan', sans-serif;
+        font-weight: 700;
+    }
+    .rate-txt {
+        margin-left: 2rem;
+    }
+    .rate-first {
+        transform: translateX(-20%);
+    }
+    .rate-second {
+        transform: translateX(-10%);
+    }
+    .customers {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2rem;
+        margin: 4rem 0 4rem 0;
+    }
+    .customer {
+        border-radius: 5px;
+        background: hsl(300, 43%, 22%);
+        min-width: 20rem;
+        padding: 2rem;
+    }
+    .customer-info {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1rem;
+    }
+    .customer-img {
+        border-radius: 50%;
+        width: 3em;
+        height: 3em;
+    }
+    .customer-deets {
+        list-style: none;
+        margin-top: 0.5em;
+    }
+    .customer-name {
+        font-family: 'Spartan', sans-serif;
+        font-weight: 700;
+        color: hsl(0, 0%, 100%);
+    }
+    .customer-status {
+        font-family: 'Spartan', sans-serif;
+        color: hsl(333, 80%, 67%);
+    }
+    .customer-words {
+        font-family: 'Spartan', sans-serif;
+        font-size: 0.8679rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: hsl(300, 24%, 96%);
+    }
+    .customer-second {
+        transform: translateY(10%);
+    }
+    .customer-third {
+        transform: translateY(20%);
+    }
+    h1 {
+        font-size: 3rem;
+        font-family: 'Spartan', sans-serif;
+        font-weight: 700;
+        color: hsl(300, 43%, 22%);
+        margin: 0;
+    }
+    p {
+        font-size: 0.9rem;
+        font-family: 'Spartan', sans-serif;
+        font-weight: 400;
+        color: hsl(303, 10%, 53%);
+        line-height: 1.7;
+    }
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
 }
 
 .colors {
@@ -147,4 +128,131 @@ p {
     color: hsl(303, 10%, 53%);
     color: hsl(300, 24%, 96%);
     color: hsl(0, 0%, 100%);
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 15px;
+        min-height: 100vh;
+        background: hsl(0, 0%, 100%);
+        background-image: url('./images/bg-pattern-top-desktop.svg'), url('./images/bg-pattern-bottom-desktop.svg');
+        background-position: right 20vw bottom 185vh, left 20vw top 100vh;
+        background-repeat: no-repeat no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main {
+        min-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 3rem;
+        font-family: 'Spartan', sans-serif;
+        font-weight: 700;
+        min-width: 90vw;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+        color: hsl(300, 43%, 22%);
+    }
+    p {
+        text-align: center;
+        align-items: center;
+        font-size: 0.9rem;
+        font-family: 'Spartan', sans-serif;
+        font-weight: 400;
+        min-width: 90vw;
+        color: hsl(303, 10%, 53%);
+        line-height: 1.7;
+    }
+    .heading-rate {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        align-self: center;
+        margin-top: 2.5rem;
+    }
+    .rate {
+        background: hsl(300, 24%, 96%);
+        color: hsl(300, 43%, 22%);
+        border-radius: 5px;
+        min-width: 25rem;
+        padding: 1rem 2rem;
+        font-family: 'Spartan', sans-serif;
+        font-weight: 700;
+        line-height: 1.7;
+    }
+    .rate-txt {
+        margin: 0 auto;
+        display: block;
+    }
+    .rate-first {
+        transform: none;
+    }
+    .rate-second {
+        transform: none;
+    }
+    .customers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 5rem;
+        gap: 1rem;
+    }
+    .customer {
+        border-radius: 5px;
+        background: hsl(300, 43%, 22%);
+        min-width: 25rem;
+        padding: 2rem;
+    }
+    .customer-info {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1rem;
+    }
+    .customer-img {
+        border-radius: 50%;
+        width: 3em;
+        height: 3em;
+    }
+    .customer-deets {
+        list-style: none;
+        margin-top: 0.5em;
+    }
+    .customer-name {
+        font-family: 'Spartan', sans-serif;
+        font-weight: 700;
+        color: hsl(0, 0%, 100%);
+    }
+    .customer-status {
+        font-family: 'Spartan', sans-serif;
+        color: hsl(333, 80%, 67%);
+    }
+    .customer-words {
+        font-family: 'Spartan', sans-serif;
+        font-size: 0.8679rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: hsl(300, 24%, 96%);
+    }
+    .customer-second {
+        transform: none;
+    }
+    .customer-third {
+        transform: none;
+    }
 }
